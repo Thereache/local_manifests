@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="github"
-            fetch="https://github.com"
+    <remote name="Holi-stone"
+            fetch="https://github.com/Holi-stone"
+            clone-depth="1" />
+ 
+    <remote name="Thereache"
+            fetch="https://github.com/Thereache"
             clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/stone" name="Holi-stone/device_xiaomi_stone" remote="github" revision="main" />
