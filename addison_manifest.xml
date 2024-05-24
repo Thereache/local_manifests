@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="Holi-stone"
-            fetch="https://github.com/Holi-stone"
-            clone-depth="1" />
- 
     <remote name="Thereache"
             fetch="https://github.com/Thereache"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/stone" name="Holi-stone/device_xiaomi_stone" remote="github" revision="main" />
-
- <!--Kernel -->
- <project path="kernel/xiaomi/sm6375" name="Thereache/kernel_xiaomi_sm6375" remote="github" revision="14" />
- 
- <!--Vendor -->
- <project path="vendor/xiaomi/stone" name="Holi-stone/vendor_xiaomi_stone" remote="github" revision="14" />
- 
- <!--prebuilt kernel -->
- <project path="device/xiaomi/stone-kernel" name="Holi-stone/device_xiaomi_stone-kernel" remote="github" revision="14" /> -->
+ <project path="device/xiaomi/redwood" name="Thereache/android_device_xiaomi_redwood" remote="github" revision="main" />
 
   <!--hardware xiaomi -->
- <project path="hardware/xiaomi" name="Thereache/android_hardware_xiaomi" remote="github" revision="lineage-21" /> -->
+ <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="fourteen" /> -->
  
 </manifest>
