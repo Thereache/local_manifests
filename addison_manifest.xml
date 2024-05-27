@@ -5,7 +5,7 @@
             fetch="https://github.com/Thereache"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/redwood" name="Thereache/android_device_xiaomi_redwood" remote="github" revision="main" />
+ <project path="device/xiaomi/redwood" name="Thereache/android_device_xiaomi_redwood" remote="github" revision="14" />
 
   <!--hardware xiaomi -->
  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="fourteen" /> -->
